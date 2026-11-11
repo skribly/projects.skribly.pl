@@ -1,0 +1,27 @@
+# Skribly Projects
+
+> The projects Skribly builds: what each one is, what it does today and where it stands.
+
+The projects we build at Skribly: tools for people who write software with AI agents. Each one has a page that says what it is, what it does today and where it stands.
+
+## Projects
+
+- [skribly.pl](https://projects.skribly.pl/website/): The home page of Skribly, in English and Polish. Public: https://skribly.pl/. Polish: https://projects.skribly.pl/pl/website/
+- [Skribly Docs](https://projects.skribly.pl/docs/): The documentation of the Skribly tools, in English and Polish. Public: https://docs.skribly.pl/. Polish: https://projects.skribly.pl/pl/docs/
+- [Skribly UI](https://projects.skribly.pl/ui/): The shared look of Skribly: tokens, CSS, React components and the site kit. Public: https://ui.skribly.pl/. Polish: https://projects.skribly.pl/pl/ui/
+- [Skribly Agent](https://projects.skribly.pl/agent/): A desktop app for working with AI coding agents side by side. In progress. Polish: https://projects.skribly.pl/pl/agent/
+- [Skribly Tracker](https://projects.skribly.pl/tracker/): An issue tracker made to work with coding agents. In progress. Polish: https://projects.skribly.pl/pl/tracker/
+- [agent-skills](https://projects.skribly.pl/agent-skills/): Portable skills for AI coding agents, with one installer. In progress. Polish: https://projects.skribly.pl/pl/agent-skills/
+- [Skribly Core](https://projects.skribly.pl/core/): The shared contracts, API access and presets of the Skribly apps. In progress. Polish: https://projects.skribly.pl/pl/core/
+- [Skribly ID](https://projects.skribly.pl/id/): One sign-in for every Skribly app. In progress. Polish: https://projects.skribly.pl/pl/id/
+- [Skribly API](https://projects.skribly.pl/api/): One address for the REST APIs of the Skribly apps. In progress. Polish: https://projects.skribly.pl/pl/api/
+- [Skribly Hub](https://projects.skribly.pl/hub/): A console that shows the state of every Skribly product. In progress. Polish: https://projects.skribly.pl/pl/hub/
+- [Skribly Status](https://projects.skribly.pl/status/): Whether each public Skribly site is up. In progress. Polish: https://projects.skribly.pl/pl/status/
+- [Skribly Trust Centre](https://projects.skribly.pl/trust/): How Skribly handles security, privacy and accessibility. In progress. Polish: https://projects.skribly.pl/pl/trust/
+- [Skribly Tools](https://projects.skribly.pl/tools/): A list of the Skribly tools that are live. In progress. Polish: https://projects.skribly.pl/pl/tools/
+- [App template](https://projects.skribly.pl/template-app/): The starting point of every Skribly app. In progress. Polish: https://projects.skribly.pl/pl/template-app/
+- [Site template](https://projects.skribly.pl/template-site/): The starting point of every Skribly site. In progress. Polish: https://projects.skribly.pl/pl/template-site/
+
+## Optional
+
+- [Licences](https://projects.skribly.pl/licenses/): The open source software and fonts that this site ships, each with its licence and its licence text.
