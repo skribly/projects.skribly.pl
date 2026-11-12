@@ -13,6 +13,7 @@ The projects our team builds and will build. Each one has its own page: what it 
 - [skribly.pl](https://projects.skribly.pl/skribly/website/): The home page of Skribly, in English and Polish. Public: https://skribly.pl/. Polish: https://projects.skribly.pl/pl/skribly/website/
 - [Skribly Docs](https://projects.skribly.pl/skribly/docs/): The documentation of the Skribly tools, in English and Polish. Public: https://docs.skribly.pl/. Polish: https://projects.skribly.pl/pl/skribly/docs/
 - [Skribly UI](https://projects.skribly.pl/skribly/ui/): The shared look of Skribly: tokens, CSS, React components and the site kit. Public: https://ui.skribly.pl/. Polish: https://projects.skribly.pl/pl/skribly/ui/
+- [Skribly Newsletter](https://projects.skribly.pl/skribly/newsletter/): A free weekly newsletter: AI news worth reading and what is new in Skribly. Public: https://newsletter.skribly.pl/. Polish: https://projects.skribly.pl/pl/skribly/newsletter/
 - [Skribly Agent](https://projects.skribly.pl/skribly/agent/): A desktop app for working with AI coding agents side by side. In progress. Polish: https://projects.skribly.pl/pl/skribly/agent/
 - [Skribly Tracker](https://projects.skribly.pl/skribly/tracker/): An issue tracker made to work with coding agents. In progress. Polish: https://projects.skribly.pl/pl/skribly/tracker/
 - [agent-skills](https://projects.skribly.pl/skribly/agent-skills/): Portable skills for AI coding agents, with one installer. In progress. Polish: https://projects.skribly.pl/pl/skribly/agent-skills/
