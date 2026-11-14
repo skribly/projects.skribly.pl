@@ -96,7 +96,7 @@ var e = {
 	bot: `Skribly Bot`,
 	projects: `Skribly Projects`
 }, n = `skribly.pl`;
-t.skribly, { ...e.skribly }, t.agent, { ...e.agent }, t.tracker, { ...e.tracker }, t.skills, { ...e.skills }, t.docs, { ...e.docs }, t.ui, { ...e.ui };
+t.skribly, { ...e.skribly }, t.agent, { ...e.agent }, t.tracker, { ...e.tracker }, t.skills, { ...e.skills }, t.docs, { ...e.docs }, t.ui, { ...e.ui }, t.newsletter, { ...e.newsletter };
 var r = 31536e3;
 function i(e, t) {
 	for (let n of e.split(`;`)) {

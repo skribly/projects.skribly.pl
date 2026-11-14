@@ -1,4 +1,4 @@
-import { a as e, i as t, n, r, t as i } from "./cookie.Bm5aWS5f.js";
+import { a as e, i as t, n, r, t as i } from "./cookie.Ltd5ABer.js";
 import { t as a } from "./motion.DMAhcwwu.js";
 var o = `sk-a11y`, s = [
 	100,
@@ -112,5 +112,49 @@ function S(e, t = document) {
 		!e.hidden && t.target instanceof Node && !e.contains(t.target) && w(!1, !1);
 	}), b(n, o), S();
 }
-var C = document.querySelector(`[data-sk-a11y-panel]`);
-C && S(C);
+var C = `sk-corner`;
+function w(e) {
+	try {
+		return e?.sessionStorage ?? null;
+	} catch {
+		return null;
+	}
+}
+function T(e) {
+	try {
+		return e?.getItem(`sk-corner`) ?? null;
+	} catch {
+		return null;
+	}
+}
+function E(e) {
+	try {
+		e?.setItem(C, `hidden`);
+	} catch {
+		return;
+	}
+}
+function D(e = document) {
+	let t = e.documentElement, n = w(e.defaultView);
+	T(n) === `hidden` && (t.dataset.skCorner = `hidden`);
+	for (let r of e.querySelectorAll(`[data-sk-corner-close]:not([data-sk-ready])`)) r.dataset.skReady = ``, r.addEventListener(`click`, () => {
+		t.dataset.skCorner = `hidden`, E(n), e.querySelector(`main`)?.focus();
+	});
+}
+var O = `sk-motion`;
+function k(e, t) {
+	return (n(e, `sk-motion`) ?? r(t, `sk-motion`)) === `paused`;
+}
+function A(e, t) {
+	t ? e.dataset.skMotion = `paused` : delete e.dataset.skMotion;
+}
+function j(n = document) {
+	let r = n.documentElement, a = i(n.defaultView ?? void 0);
+	k(n.cookie, a) && A(r, !0);
+	for (let i of n.querySelectorAll(`[data-sk-motion-toggle]:not([data-sk-ready])`)) i.dataset.skReady = ``, i.addEventListener(`click`, () => {
+		let i = r.dataset.skMotion !== `paused`;
+		A(r, i), t(n, O, i ? `paused` : `playing`), e(a, O, i ? `paused` : `playing`);
+	});
+}
+var M = document.querySelector(`[data-sk-a11y-panel]`);
+M && S(M), j(), D();

@@ -19,6 +19,10 @@
 	const theme = read("sk-theme");
 	if (theme === "light" || theme === "dark" || theme === "contrast") root.setAttribute("data-theme", theme);
 	root.dataset["themeChoice"] = theme === "light" || theme === "dark" || theme === "contrast" ? theme : "system";
+	if (read("sk-motion") === "paused") root.dataset["skMotion"] = "paused";
+	try {
+		if (sessionStorage.getItem("sk-corner") === "hidden") root.dataset["skCorner"] = "hidden";
+	} catch {}
 	try {
 		const settings = JSON.parse(read("sk-a11y") ?? "null");
 		if (!settings) return;
