@@ -1,5 +1,5 @@
 import { n as e } from "./motion.DMAhcwwu.js";
-import { n as t } from "./strings.Bs5INlER.js";
+import { n as t } from "./strings.C_3qDp9c.js";
 var n = `.sk-grid, .sk-features, .card-grid, [data-sk-swipe]`, r = `(max-width: 47.99rem)`, i = `http://www.w3.org/2000/svg`;
 function a(e) {
 	let t = e.createElementNS(i, `svg`);
