@@ -1,10 +1,13 @@
 import { n as e } from "./motion.DMAhcwwu.js";
-import { n as t } from "./strings.C_3qDp9c.js";
+import { n as t } from "./strings.ByScae8D.js";
 var n = `.sk-grid, .sk-features, .card-grid, [data-sk-swipe]`, r = `(max-width: 47.99rem)`, i = `http://www.w3.org/2000/svg`;
 function a(e) {
 	let t = e.createElementNS(i, `svg`);
 	for (let [e, n] of Object.entries({
 		"aria-hidden": `true`,
+		class: `sk-icon`,
+		"data-icon": `chevron.right`,
+		focusable: `false`,
 		viewBox: `0 0 24 24`,
 		width: `20`,
 		height: `20`,
