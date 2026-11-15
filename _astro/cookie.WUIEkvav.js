@@ -101,7 +101,7 @@ var r = (e) => ({
 	en: `https://${e}.${n}/`,
 	pl: `https://${e}.${n}/pl/`
 });
-t.status, r(`status`), t.trust, r(`trust`), t.tools, r(`tools`), t.projects, r(`projects`), r(`dc`), t.id, r(`id`), t.hub, r(`hub`), t.api, r(`api`), r(`time`), t.feedback, r(`feedback`), t.tracker, r(`tracker`);
+t.status, r(`status`), t.trust, r(`trust`), t.tools, r(`tools`), t.projects, r(`projects`), r(`dc`), t.id, r(`id`), t.hub, r(`hub`), t.api, r(`api`), t.feedback, r(`feedback`), t.tracker, r(`tracker`), r(`time`);
 var i = 31536e3;
 function a(e, t) {
 	for (let n of e.split(`;`)) {
