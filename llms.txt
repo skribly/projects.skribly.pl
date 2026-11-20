@@ -20,6 +20,8 @@ The projects our team builds and will build. Each one has its own page: what it 
 - [Skribly Core](https://projects.skribly.pl/skribly/core/): The shared contracts, API access and presets of the Skribly apps. In progress. Polish: https://projects.skribly.pl/pl/skribly/core/
 - [Skribly ID](https://projects.skribly.pl/skribly/id/): One sign-in for every Skribly app. In progress. Polish: https://projects.skribly.pl/pl/skribly/id/
 - [Skribly API](https://projects.skribly.pl/skribly/api/): One address for the REST APIs of the Skribly apps. In progress. Polish: https://projects.skribly.pl/pl/skribly/api/
+- [Skribly MCP](https://projects.skribly.pl/skribly/mcp/): One MCP server for every Skribly app and every coding agent. In progress. Polish: https://projects.skribly.pl/pl/skribly/mcp/
+- [Skribly Ops](https://projects.skribly.pl/skribly/ops/): Logs, background jobs and alerts of the Skribly apps in one place. In progress. Polish: https://projects.skribly.pl/pl/skribly/ops/
 - [Skribly Hub](https://projects.skribly.pl/skribly/hub/): A console that shows the state of every Skribly product. In progress. Polish: https://projects.skribly.pl/pl/skribly/hub/
 - [Skribly Status](https://projects.skribly.pl/skribly/status/): Whether each public Skribly site is up. Public: https://status.skribly.pl/. Polish: https://projects.skribly.pl/pl/skribly/status/
 - [Skribly Trust Centre](https://projects.skribly.pl/skribly/trust/): How Skribly handles security, privacy and accessibility. Public: https://trust.skribly.pl/. Polish: https://projects.skribly.pl/pl/skribly/trust/
